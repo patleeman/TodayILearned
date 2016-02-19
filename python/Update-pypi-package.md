@@ -8,9 +8,7 @@ Update a PyPI package quick and dirty steps necessary.  Based on [This Article](
 
     ```git
     git tag {version} -m "Add tag for release"
-    
-    git tag  # Verify tag is in place
-    
+    git tag  # Verify tag is in place 
     git push --tags origin master
     ```
 
@@ -18,8 +16,9 @@ Update a PyPI package quick and dirty steps necessary.  Based on [This Article](
 
 4. Send to PyPi live:
 
+    ```bash
     python3 setup.py sdist upload -r pypi
-
+    ```
 
 Note: 
 
