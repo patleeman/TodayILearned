@@ -6,12 +6,15 @@ Update a PyPI package quick and dirty steps necessary.  Based on [This Article](
 
 2. Send release to github:
 
+    ```git
     git tag {version} -m "Add tag for release"
+    
     git tag  # Verify tag is in place
+    
     git push --tags origin master
+    ```
 
-3. Ensure .pypirc file is located in ~/
-   If not there, follow guide.
+3. Ensure .pypirc file is located in ~/ . If not there, follow guide.
 
 4. Send to PyPi live:
 
