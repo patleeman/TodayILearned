@@ -1,6 +1,6 @@
 #Automatic setup.py version numbering
 
-Problem: Setup.py takes a version number in at least 2 locations, and if you import your main package into setup.py you can cause a race condition.  Therefore, the other way to extract the version number is to read it out of your application file python file.
+Problem: Setup.py takes a version number in at least 2 locations (version, and maybe a github release location), and if you import your main package into setup.py you can cause a race condition.  Therefore, the other way to extract the version number is to read it out of your application file python file.
 
 This function, placed at the top of your setup.py file will extract the line that sets the version, containing __version__ = '0.0.0', then executes it and adds it to the namespace.
 
