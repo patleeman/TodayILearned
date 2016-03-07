@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Today I Learned is a concept where one keeps a log of interesting lessons
   learned every day across all aspects of life.  Use it for programming,
   factoids, news, recipes, etc.  We're always learning, why not keep a record?
-baseurl: "TodayILearned/"" # the subpath of your site, e.g. /blog
-url: "http://patleeman.github.com/ # the base hostname & protocol for your site
+baseurl: "/TodayILearned # the subpath of your site, e.g. /blog
+url: "http://patleeman.github.com # the base hostname & protocol for your site
 twitter_username: patleeman
 github_username:  patleeman
 
