@@ -1,4 +1,4 @@
-#Json web tokens (jwt) for rest api auth
+#title: Json web tokens (jwt) for rest api auth
 
 JSON Web Tokens (JWT)
 

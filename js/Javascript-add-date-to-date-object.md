@@ -1,4 +1,4 @@
-#Javascript add date to date object
+#title: Javascript add date to date object
 
 // Helper function to add dates to a date object.
 function addDays(date, days) {

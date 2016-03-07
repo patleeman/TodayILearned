@@ -1,5 +1,5 @@
 # TodayILearned
-A repository for all the things I learn.  Idea forked from https://github.com/thoughtbot/til and https://github.com/jbranchaud/til
+A repository for all the things I learn.  Idea forked from https://github.com/jbranchaud/til and first seen on [hacker news](https://news.ycombinator.com/item?id=11068902)
 
 Follow me on twitter [@patleeman](https://twitter.com/patleeman)
 
