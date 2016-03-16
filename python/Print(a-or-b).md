@@ -1,9 +1,9 @@
-#Print(a or b)
+#title: Print(a or b)
 
 Using the `or` operator, you can print one variable or the other if one is `None` and the other is `not None`.  I discovered this when I wanted to print either an error or an output from a subprocess.Popen and did not want to write conditional logic to check which item contained output.
 
 
-Python 3.4.3+ (default, Oct 14 2015, 16:03:50) 
+Python 3.4.3+ (default, Oct 14 2015, 16:03:50)
 [GCC 5.2.1 20151010] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 
@@ -21,4 +21,3 @@ Hello
 >>> b = "world"
 >>> print(a or b)
 hello
-

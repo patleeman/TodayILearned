@@ -1,4 +1,4 @@
-#Update pypi package
+#title: Update pypi package
 
 Update a PyPI package quick and dirty steps necessary.  Based on [This Article](http://peterdowns.com/posts/first-time-with-pypi.html)
 
@@ -8,7 +8,7 @@ Update a PyPI package quick and dirty steps necessary.  Based on [This Article](
 
     ```git
     git tag {version} -m "Add tag for release"
-    git tag  # Verify tag is in place 
+    git tag  # Verify tag is in place
     git push --tags origin master
     ```
 
@@ -20,11 +20,9 @@ Update a PyPI package quick and dirty steps necessary.  Based on [This Article](
     python3 setup.py sdist upload -r pypi
     ```
 
-Note: 
+Note:
 
 Delete tag if there are additional commits to roll into release:
 
     git tag -d 0.0.1
     git push origin :refs/tags/0.0.1
-
-

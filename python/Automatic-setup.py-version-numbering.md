@@ -1,4 +1,4 @@
-#Automatic setup.py version numbering
+#title: Automatic setup.py version numbering
 
 Problem: Setup.py takes a version number in at least 2 locations (version, and maybe a github release location), and if you import your main package into setup.py you can cause a race condition.  Therefore, the other way to extract the version number is to read it out of your application file python file.
 
@@ -37,5 +37,3 @@ __version__ = '0.0.1'
 def main():
    ...
 ```
-
-

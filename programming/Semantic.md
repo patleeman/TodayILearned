@@ -1,4 +1,4 @@
-#Semantic
+#title: Semantic
 
 ###Semantic versioning for software development.
 
